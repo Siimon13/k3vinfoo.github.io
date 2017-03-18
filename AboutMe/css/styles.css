@@ -96,6 +96,7 @@ header nav ul li a {
 
 .container {
     font-family: 'Raleway', sans-serif;
+    height: 100%;
     background-color: #48C9B0;
     font-size: 0em;
     padding-top: 125px;

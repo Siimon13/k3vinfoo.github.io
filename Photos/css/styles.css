@@ -99,7 +99,8 @@ header nav ul li a {
 .container {
     background-color: #C0392B;
     width: 100%;
-    min-height: 100%;
+    /*min-height: 100%;*/
+    height: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 0 auto;
@@ -108,7 +109,8 @@ header nav ul li a {
 }
 
 .thumbnail {
-    width: 90%;
+    /*width: 90%;*/
+    width: 1296px;
     height: 300px;
     font-size: 0em;
     margin: 20px auto;
