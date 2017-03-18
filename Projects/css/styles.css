@@ -1,0 +1,205 @@
+/*==================================================
+|               PROJECTS STYLE SHEET               |
+==================================================*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*---------------BODY STYLES--------------*/
+
+
+/*-----Header Nav Styles------*/
+
+header {
+    position: relative;
+    width: 100vw;
+    line-height: 55px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0em;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+#a1 {
+    width: 25%;
+    background-color: #3498DB;
+}
+
+#a2 {
+    width: 25%;
+    background-color: #48C9B0;
+    /*background-color: #76D7C4;*/
+}
+
+#a3 {
+    width: 25%;
+    background-color: #9B59B6;
+}
+
+#a4 {
+    width: 25%;
+    background-color: #C0392B;
+}
+
+#a1 a:hover {
+    color: white;
+    background-color: #1B4F72;
+}
+
+#a2 a:hover {
+    color: white;
+    background-color: #0E6251;
+}
+
+#a3 a:hover {
+    color: white;
+    background-color: #512E5F;
+}
+
+#a4 a:hover {
+    color: white;
+    background-color: #641E16;
+}
+
+header nav ul li a {
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+}
+
+
+/*-----End of Header Nav Styles-----*/
+
+
+/*Generic Clearfix*/
+
+.clear-fix:after {
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    font-size: 0;
+    visibility: hidden;
+}
+
+.container {
+    background-color: #9B59B6;
+    width: 100%;
+    /*height: 150vh;*/
+    min-height: 100%;
+    font-size: 0em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    display: block;
+    font-family: 'Raleway', sans-serif;
+}
+
+.thumbnail {
+    /*width: 60%;*/
+    width: 60vw;
+    height: 300px;
+    margin: 2% auto;
+    /*margin-top: 2%;*/
+    padding: 50px 10%;
+    /*background-color: grey;*/
+    display: block;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    transition: all 0.5s ease;
+}
+
+.thumbnail:hover {
+    border: 2px solid white;
+}
+
+.thumb-info {
+    /*background-color: skyblue;*/
+    margin: auto;
+    padding: 10px;
+    /*width: 60%;*/
+    width: 500px;
+    height: 280px;
+    color: white;
+    font-size: 20px;
+}
+
+.thumb-img {
+    /*background-color: yellow;*/
+    height: 280px;
+    width: 280px;
+    padding: 10px;
+}
+
+.left {
+    float: left;
+    text-align: left;
+}
+
+.right {
+    float: right;
+    text-align: right;
+}
+
+.thumb-info a {
+    color: white;
+    text-decoration: none;
+}
+
+.thumb-info p a {
+    color: black;
+}
+
+.thumb-info p a:hover {
+    color: white;
+}
+
+.thumb-info a:hover {
+    color: black;
+}
+
+
+/*----Start of Footer Styles----*/
+
+footer {
+    width: 100%;
+    height: 110px;
+    background-color: #9B59B6;
+    margin: 0 auto;
+    line-height: 60px;
+}
+
+#links {
+    text-align: center;
+}
+
+footer a {
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    /*color: #3498DB;*/
+}
+
+a:hover {
+    color: #512E5F;
+}
+
+
+/*----End of Footer Styles----*/
+
+
+/*---------------END OF BODY STYLES--------------*/
