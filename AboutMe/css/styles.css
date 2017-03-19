@@ -149,6 +149,11 @@ h3 {
     color: grey;
 }
 
+.res-cont {
+    width: 100%;
+    margin: 0 auto;
+}
+
 .resume {
     display: inline-block;
     color: white;
