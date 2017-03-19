@@ -106,6 +106,22 @@ body {
     padding: 10px;
 }
 
+.arrow {
+    position: absolute;
+    left: 0;
+    top: 70%;
+    width: 100%;
+    text-align: center;
+}
+
+.arrow a {
+    color: white;
+}
+
+.arrow a:hover {
+    color: white;
+}
+
 
 /*-----End of Home Animation Styles-----*/
 
