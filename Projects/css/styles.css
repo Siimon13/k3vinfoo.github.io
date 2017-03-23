@@ -291,7 +291,66 @@ a:hover {
 
 /* Mobile Landscape Size to Tablet Portrait */
 
-@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/*@media only screen and (min-width: 480px) and (max-width: 767px) {*/
+
+@media only screen and (max-width: 767px) {
+    header {
+        position: relative;
+        width: 100vw;
+        line-height: 55px;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0em;
+    }
+    header nav ul {
+        list-style-type: none;
+    }
+    header nav ul li {
+        display: block;
+    }
+    #a1 {
+        width: 100%;
+        background-color: #3498DB;
+    }
+    #a2 {
+        width: 100%;
+        background-color: #48C9B0;
+        /*background-color: #76D7C4;*/
+    }
+    #a3 {
+        width: 100%;
+        background-color: #9B59B6;
+    }
+    #a4 {
+        width: 100%;
+        background-color: #C0392B;
+    }
+    #a1 a:hover {
+        color: white;
+        background-color: #1B4F72;
+    }
+    #a2 a:hover {
+        color: white;
+        background-color: #0E6251;
+    }
+    #a3 a:hover {
+        color: white;
+        background-color: #512E5F;
+    }
+    #a4 a:hover {
+        color: white;
+        background-color: #641E16;
+    }
+    header nav ul li a {
+        font-weight: bold;
+        color: white;
+        font-size: 30px;
+        display: block;
+        padding: 20px;
+        text-decoration: none;
+    }
+}
 
 
 /* Mobile Portrait Size to Mobile Landscape Size */
