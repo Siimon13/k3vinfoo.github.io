@@ -129,7 +129,6 @@ body {
 /*-----Header Nav Styles------*/
 
 header {
-    /*position: relative;*/
     width: 100vw;
     line-height: 55px;
     text-align: center;
@@ -149,7 +148,6 @@ header nav ul {
 
 header nav ul li {
     display: inline-block;
-    /*font-weight: bold;*/
 }
 
 .close-head {
@@ -157,23 +155,23 @@ header nav ul li {
 }
 
 #a1 {
-    width: 25%;
+    width: 25vw;
     background-color: #3498DB;
 }
 
 #a2 {
-    width: 25%;
+    width: 25vw;
     background-color: #48C9B0;
     /*background-color: #76D7C4;*/
 }
 
 #a3 {
-    width: 25%;
+    width: 25vw;
     background-color: #9B59B6;
 }
 
 #a4 {
-    width: 25%;
+    width: 25vw;
     background-color: #C0392B;
 }
 
@@ -376,14 +374,12 @@ footer {
 /*PROJECTS*/
 
 #Projects {
-    height: 83em;
+    height: 70em;
 }
 
 #Projects .container {
     background-color: #9B59B6;
-    /*width: 100%;*/
     height: 100%;
-    min-height: 100%;
     font-size: 0em;
     padding-top: 10%;
     padding-bottom: 10px;
@@ -394,8 +390,7 @@ footer {
 
 #Projects .thumbnail {
     width: 70vw;
-    /*height: 300px;*/
-    height: 25%;
+    height: 28%;
     margin: 0 auto;
     margin-top: 2%;
     padding: 50px 10%;
@@ -537,22 +532,21 @@ footer a {
 ======================================*/
 
 @media only screen and (min-width: 768px) and (max-width: 995px) {
+    /*At the moment, only projects section is media supported*/
+    #Projects {
+        height: 180vh;
+    }
     #Projects .thumbnail {
-        /*background-color: grey;*/
         display: block;
-        border: 2px solid rgba(0, 0, 0, 0.3);
-        transition: all 0.5s ease;
-        height: 560px;
+        height: 38%;
     }
     #Projects .thumbnail:hover {
         border: 2px solid white;
     }
     #Projects .thumb-info {
-        /*background-color: skyblue;*/
         margin: auto;
-        padding: 5px;
+        padding: 1%;
         width: 100%;
-        /*height: 280px;*/
         color: white;
         font-size: 20px;
     }
@@ -564,85 +558,9 @@ footer a {
     }
     #Projects .thumb-img {
         width: 100%;
-        padding: 10px;
-        margin: 0 auto;
-        display: block;
+        padding: 0px;
         text-align: center;
     }
 }
 
-@media only screen and (max-width: 767px) {
-    header {
-        position: relative;
-        width: 100vw;
-        line-height: 55px;
-        text-align: center;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 0em;
-    }
-    header nav ul {
-        list-style-type: none;
-    }
-    header nav ul li {
-        display: block;
-    }
-    /*=========================*/
-}
-
-@media only screen and (max-width: 767px) {
-    header {
-        position: relative;
-        width: 100vw;
-        line-height: 55px;
-        text-align: center;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 0em;
-    }
-    header nav ul {
-        list-style-type: none;
-    }
-    header nav ul li {
-        display: block;
-    }
-    #a1 {
-        width: 100%;
-        background-color: #3498DB;
-    }
-    #a2 {
-        width: 100%;
-        background-color: #48C9B0;
-        /*background-color: #76D7C4;*/
-    }
-    #a3 {
-        width: 100%;
-        background-color: #9B59B6;
-    }
-    #a4 {
-        width: 100%;
-        background-color: #C0392B;
-    }
-    #a1 a:hover {
-        color: white;
-        background-color: #1B4F72;
-    }
-    #a2 a:hover {
-        color: white;
-        background-color: #0E6251;
-    }
-    #a3 a:hover {
-        color: white;
-        background-color: #512E5F;
-    }
-    #a4 a:hover {
-        color: white;
-        background-color: #641E16;
-    }
-    header nav ul li a {
-        font-weight: bold;
-        color: white;
-        font-size: 30px;
-        display: block;
-        padding: 20px;
-        text-decoration: none;
-    }
-}
+@media only screen and (max-width: 767px) {}
