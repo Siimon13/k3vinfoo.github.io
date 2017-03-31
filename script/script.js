@@ -18,3 +18,21 @@ $(document).ready(function() {
         }
     });
 });
+
+// Sticky header bar
+$(document).ready(function() {
+
+    var stick = $("header").offset().top;
+
+    $(window).scroll(function() {
+        var head = $("header");
+        var scroll = $(window).scrollTop();
+        if ($(window).width() > 900) {
+            if (scroll >= stick) {
+                head.addClass("sticky");
+            } else {
+                head.removeClass("sticky");
+            }
+        }
+    });
+});
